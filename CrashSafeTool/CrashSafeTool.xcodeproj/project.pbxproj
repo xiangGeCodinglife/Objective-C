@@ -16,7 +16,19 @@
 		DC70D75E24C29C540064612E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC70D75D24C29C540064612E /* main.m */; };
 		DC70D76824C29C540064612E /* CrashSafeToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC70D76724C29C540064612E /* CrashSafeToolTests.m */; };
 		DC70D77324C29C550064612E /* CrashSafeToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC70D77224C29C550064612E /* CrashSafeToolUITests.m */; };
-		DC70D78324C29C830064612E /* NSDictionary+HGNilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = DC70D78224C29C830064612E /* NSDictionary+HGNilSafe.m */; };
+		DCED2F0524C6BFFA00D2810D /* NSSet+HG_ExceptionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EEB24C6BFFA00D2810D /* NSSet+HG_ExceptionProtector.m */; };
+		DCED2F0624C6BFFA00D2810D /* NSMutableString+HG_ExceptionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EEC24C6BFFA00D2810D /* NSMutableString+HG_ExceptionProtector.m */; };
+		DCED2F0724C6BFFA00D2810D /* NSMutableSet+HG_ExceptionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EED24C6BFFA00D2810D /* NSMutableSet+HG_ExceptionProtector.m */; };
+		DCED2F0824C6BFFA00D2810D /* NSDictionary+HG_ExceptionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EF024C6BFFA00D2810D /* NSDictionary+HG_ExceptionProtector.m */; };
+		DCED2F0924C6BFFA00D2810D /* NSArray+HG_ExceptionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EF224C6BFFA00D2810D /* NSArray+HG_ExceptionProtector.m */; };
+		DCED2F0A24C6BFFA00D2810D /* NSMutableDictionary+HG_ExceptionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EF424C6BFFA00D2810D /* NSMutableDictionary+HG_ExceptionProtector.m */; };
+		DCED2F0B24C6BFFA00D2810D /* HGExceptionProtectorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EF624C6BFFA00D2810D /* HGExceptionProtectorManager.m */; };
+		DCED2F0C24C6BFFA00D2810D /* UIView+HG_ExceptionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EF824C6BFFA00D2810D /* UIView+HG_ExceptionProtector.m */; };
+		DCED2F0D24C6BFFA00D2810D /* NSObject+HG_DeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EFA24C6BFFA00D2810D /* NSObject+HG_DeallocBlock.m */; };
+		DCED2F0E24C6BFFA00D2810D /* NSObject+HG_UnrecoginzedSelProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EFC24C6BFFA00D2810D /* NSObject+HG_UnrecoginzedSelProtector.m */; };
+		DCED2F0F24C6BFFA00D2810D /* NSMutableArray+HG_ExceptionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2EFD24C6BFFA00D2810D /* NSMutableArray+HG_ExceptionProtector.m */; };
+		DCED2F1024C6BFFA00D2810D /* NSObject+HG_Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2F0124C6BFFA00D2810D /* NSObject+HG_Swizzling.m */; };
+		DCED2F1124C6BFFA00D2810D /* NSString+HG_ExceptionProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = DCED2F0424C6BFFA00D2810D /* NSString+HG_ExceptionProtector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +67,33 @@
 		DC70D76E24C29C550064612E /* CrashSafeToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashSafeToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC70D77224C29C550064612E /* CrashSafeToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashSafeToolUITests.m; sourceTree = "<group>"; };
 		DC70D77424C29C550064612E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC70D78124C29C830064612E /* NSDictionary+HGNilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HGNilSafe.h"; sourceTree = "<group>"; };
-		DC70D78224C29C830064612E /* NSDictionary+HGNilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HGNilSafe.m"; sourceTree = "<group>"; };
+		DCED2EEA24C6BFFA00D2810D /* UIView+HG_ExceptionProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HG_ExceptionProtector.h"; sourceTree = "<group>"; };
+		DCED2EEB24C6BFFA00D2810D /* NSSet+HG_ExceptionProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HG_ExceptionProtector.m"; sourceTree = "<group>"; };
+		DCED2EEC24C6BFFA00D2810D /* NSMutableString+HG_ExceptionProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+HG_ExceptionProtector.m"; sourceTree = "<group>"; };
+		DCED2EED24C6BFFA00D2810D /* NSMutableSet+HG_ExceptionProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+HG_ExceptionProtector.m"; sourceTree = "<group>"; };
+		DCED2EEE24C6BFFA00D2810D /* NSMutableArray+HG_ExceptionProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+HG_ExceptionProtector.h"; sourceTree = "<group>"; };
+		DCED2EEF24C6BFFA00D2810D /* NSObject+HG_UnrecoginzedSelProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HG_UnrecoginzedSelProtector.h"; sourceTree = "<group>"; };
+		DCED2EF024C6BFFA00D2810D /* NSDictionary+HG_ExceptionProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HG_ExceptionProtector.m"; sourceTree = "<group>"; };
+		DCED2EF124C6BFFA00D2810D /* NSObject+HG_DeallocBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HG_DeallocBlock.h"; sourceTree = "<group>"; };
+		DCED2EF224C6BFFA00D2810D /* NSArray+HG_ExceptionProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HG_ExceptionProtector.m"; sourceTree = "<group>"; };
+		DCED2EF324C6BFFA00D2810D /* NSObject+HG_Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HG_Swizzling.h"; sourceTree = "<group>"; };
+		DCED2EF424C6BFFA00D2810D /* NSMutableDictionary+HG_ExceptionProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+HG_ExceptionProtector.m"; sourceTree = "<group>"; };
+		DCED2EF524C6BFFA00D2810D /* NSString+HG_ExceptionProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HG_ExceptionProtector.h"; sourceTree = "<group>"; };
+		DCED2EF624C6BFFA00D2810D /* HGExceptionProtectorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGExceptionProtectorManager.m; sourceTree = "<group>"; };
+		DCED2EF724C6BFFA00D2810D /* NSSet+HG_ExceptionProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HG_ExceptionProtector.h"; sourceTree = "<group>"; };
+		DCED2EF824C6BFFA00D2810D /* UIView+HG_ExceptionProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HG_ExceptionProtector.m"; sourceTree = "<group>"; };
+		DCED2EF924C6BFFA00D2810D /* HG_CrashProtectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HG_CrashProtectorProtocol.h; sourceTree = "<group>"; };
+		DCED2EFA24C6BFFA00D2810D /* NSObject+HG_DeallocBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HG_DeallocBlock.m"; sourceTree = "<group>"; };
+		DCED2EFB24C6BFFA00D2810D /* NSDictionary+HG_ExceptionProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HG_ExceptionProtector.h"; sourceTree = "<group>"; };
+		DCED2EFC24C6BFFA00D2810D /* NSObject+HG_UnrecoginzedSelProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HG_UnrecoginzedSelProtector.m"; sourceTree = "<group>"; };
+		DCED2EFD24C6BFFA00D2810D /* NSMutableArray+HG_ExceptionProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+HG_ExceptionProtector.m"; sourceTree = "<group>"; };
+		DCED2EFE24C6BFFA00D2810D /* NSMutableSet+HG_ExceptionProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+HG_ExceptionProtector.h"; sourceTree = "<group>"; };
+		DCED2EFF24C6BFFA00D2810D /* NSMutableString+HG_ExceptionProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+HG_ExceptionProtector.h"; sourceTree = "<group>"; };
+		DCED2F0024C6BFFA00D2810D /* NSArray+HG_ExceptionProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HG_ExceptionProtector.h"; sourceTree = "<group>"; };
+		DCED2F0124C6BFFA00D2810D /* NSObject+HG_Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HG_Swizzling.m"; sourceTree = "<group>"; };
+		DCED2F0224C6BFFA00D2810D /* HGExceptionProtectorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGExceptionProtectorManager.h; sourceTree = "<group>"; };
+		DCED2F0324C6BFFA00D2810D /* NSMutableDictionary+HG_ExceptionProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+HG_ExceptionProtector.h"; sourceTree = "<group>"; };
+		DCED2F0424C6BFFA00D2810D /* NSString+HG_ExceptionProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HG_ExceptionProtector.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +144,7 @@
 		DC70D74A24C29C4F0064612E /* CrashSafeTool */ = {
 			isa = PBXGroup;
 			children = (
-				DC70D78024C29C630064612E /* CrashSafe */,
+				DCED2EE924C6BFFA00D2810D /* Class */,
 				DC70D74B24C29C4F0064612E /* AppDelegate.h */,
 				DC70D74C24C29C4F0064612E /* AppDelegate.m */,
 				DC70D74E24C29C4F0064612E /* SceneDelegate.h */,
@@ -141,13 +178,38 @@
 			path = CrashSafeToolUITests;
 			sourceTree = "<group>";
 		};
-		DC70D78024C29C630064612E /* CrashSafe */ = {
+		DCED2EE924C6BFFA00D2810D /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				DC70D78124C29C830064612E /* NSDictionary+HGNilSafe.h */,
-				DC70D78224C29C830064612E /* NSDictionary+HGNilSafe.m */,
+				DCED2EEA24C6BFFA00D2810D /* UIView+HG_ExceptionProtector.h */,
+				DCED2EEB24C6BFFA00D2810D /* NSSet+HG_ExceptionProtector.m */,
+				DCED2EEC24C6BFFA00D2810D /* NSMutableString+HG_ExceptionProtector.m */,
+				DCED2EED24C6BFFA00D2810D /* NSMutableSet+HG_ExceptionProtector.m */,
+				DCED2EEE24C6BFFA00D2810D /* NSMutableArray+HG_ExceptionProtector.h */,
+				DCED2EEF24C6BFFA00D2810D /* NSObject+HG_UnrecoginzedSelProtector.h */,
+				DCED2EF024C6BFFA00D2810D /* NSDictionary+HG_ExceptionProtector.m */,
+				DCED2EF124C6BFFA00D2810D /* NSObject+HG_DeallocBlock.h */,
+				DCED2EF224C6BFFA00D2810D /* NSArray+HG_ExceptionProtector.m */,
+				DCED2EF324C6BFFA00D2810D /* NSObject+HG_Swizzling.h */,
+				DCED2EF424C6BFFA00D2810D /* NSMutableDictionary+HG_ExceptionProtector.m */,
+				DCED2EF524C6BFFA00D2810D /* NSString+HG_ExceptionProtector.h */,
+				DCED2EF624C6BFFA00D2810D /* HGExceptionProtectorManager.m */,
+				DCED2EF724C6BFFA00D2810D /* NSSet+HG_ExceptionProtector.h */,
+				DCED2EF824C6BFFA00D2810D /* UIView+HG_ExceptionProtector.m */,
+				DCED2EF924C6BFFA00D2810D /* HG_CrashProtectorProtocol.h */,
+				DCED2EFA24C6BFFA00D2810D /* NSObject+HG_DeallocBlock.m */,
+				DCED2EFB24C6BFFA00D2810D /* NSDictionary+HG_ExceptionProtector.h */,
+				DCED2EFC24C6BFFA00D2810D /* NSObject+HG_UnrecoginzedSelProtector.m */,
+				DCED2EFD24C6BFFA00D2810D /* NSMutableArray+HG_ExceptionProtector.m */,
+				DCED2EFE24C6BFFA00D2810D /* NSMutableSet+HG_ExceptionProtector.h */,
+				DCED2EFF24C6BFFA00D2810D /* NSMutableString+HG_ExceptionProtector.h */,
+				DCED2F0024C6BFFA00D2810D /* NSArray+HG_ExceptionProtector.h */,
+				DCED2F0124C6BFFA00D2810D /* NSObject+HG_Swizzling.m */,
+				DCED2F0224C6BFFA00D2810D /* HGExceptionProtectorManager.h */,
+				DCED2F0324C6BFFA00D2810D /* NSMutableDictionary+HG_ExceptionProtector.h */,
+				DCED2F0424C6BFFA00D2810D /* NSString+HG_ExceptionProtector.m */,
 			);
-			path = CrashSafe;
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,10 +342,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCED2F0824C6BFFA00D2810D /* NSDictionary+HG_ExceptionProtector.m in Sources */,
+				DCED2F0A24C6BFFA00D2810D /* NSMutableDictionary+HG_ExceptionProtector.m in Sources */,
 				DC70D75324C29C4F0064612E /* ViewController.m in Sources */,
+				DCED2F1124C6BFFA00D2810D /* NSString+HG_ExceptionProtector.m in Sources */,
+				DCED2F0F24C6BFFA00D2810D /* NSMutableArray+HG_ExceptionProtector.m in Sources */,
+				DCED2F1024C6BFFA00D2810D /* NSObject+HG_Swizzling.m in Sources */,
 				DC70D74D24C29C4F0064612E /* AppDelegate.m in Sources */,
+				DCED2F0C24C6BFFA00D2810D /* UIView+HG_ExceptionProtector.m in Sources */,
+				DCED2F0B24C6BFFA00D2810D /* HGExceptionProtectorManager.m in Sources */,
+				DCED2F0D24C6BFFA00D2810D /* NSObject+HG_DeallocBlock.m in Sources */,
+				DCED2F0E24C6BFFA00D2810D /* NSObject+HG_UnrecoginzedSelProtector.m in Sources */,
+				DCED2F0724C6BFFA00D2810D /* NSMutableSet+HG_ExceptionProtector.m in Sources */,
+				DCED2F0924C6BFFA00D2810D /* NSArray+HG_ExceptionProtector.m in Sources */,
+				DCED2F0524C6BFFA00D2810D /* NSSet+HG_ExceptionProtector.m in Sources */,
 				DC70D75E24C29C540064612E /* main.m in Sources */,
-				DC70D78324C29C830064612E /* NSDictionary+HGNilSafe.m in Sources */,
+				DCED2F0624C6BFFA00D2810D /* NSMutableString+HG_ExceptionProtector.m in Sources */,
 				DC70D75024C29C4F0064612E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
